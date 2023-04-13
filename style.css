@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	color: black;
+	text-decoration: none;
+	background-color: white;
+
+}
+.nav{
+	display: flex;
+	width: 84%;
+	margin: auto;
+	padding: 20px 0;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.nav ul li{
+	display: inline-block;
+	margin: 10px 20px;
+	list-style: none;
+}
+.nav a:hover{
+	color: red;
+}
+.judul{
+	margin-left: 8%;
+	margin-bottom: 15%;
+}
+.judul h1{
+	color: gray;
+	font-size: 40px;
+	font-family: cursive;
+	margin-bottom: 20px;
+}
+.judul span{
+	color: #E48922;
+}
+.judul p{
+	line-hight: 22px;
+}
+.judul a{
+	background:  #51B5C4;
+	padding: 10px 18px;
+	color: gray;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 9px;
+	display: inline-block;
+	margin: 30px 0;
+}
+.judul a:hover{
+	background-color: lightblue;
+}
+.gambar{
+	position: absolute;
+	width: 45%;
+	height: 80%;
+	bottom: 0;
+	right: 97px;
+}
+.gambar img{
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translatex(-50%);
+	transition: bottom 1s, left 1s;
+}
